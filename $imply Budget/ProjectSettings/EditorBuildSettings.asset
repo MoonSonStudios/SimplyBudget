@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Simply_Assets/MainApplicationScene.unity
+    path: Assets/_Simply_Assets/Scenes/MainApplicationScene.unity
     guid: c4dfc3ddede1de14b95724b8110ab417
   m_configObjects: {}
