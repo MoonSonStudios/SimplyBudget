@@ -8,7 +8,7 @@ public class BudgetCatagory : MonoBehaviour
 {
     //Displayed Catagory Names
     public TMP_InputField catagoryNameInput; // input by user for planned expences column
-    public TMP_Text catagoryName2; // set when user inputs a name in actual expences column
+    public TMP_Text catagoryName2; // set when user inputs a name in planned expences column
 
     //$$ Amount input Fields
     public TMP_InputField catagoryPlannedExpense; // input for $$ amount in planned expences 
