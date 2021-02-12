@@ -6,13 +6,13 @@ using UnityEngine;
 public class CatagoryData
 {
     public string catagoryName;
-    public double expectedExpense;
+    public double plannedExpense;
     public double actualExpenses;
 
     public CatagoryData(BudgetCatagory catagory)
     {
         catagoryName = catagory.catagoryNameInput.text;
-        expectedExpense = catagory.plannedExpense;
+        plannedExpense = catagory.plannedExpense;
         actualExpenses = catagory.actualExpense;
     }
 }

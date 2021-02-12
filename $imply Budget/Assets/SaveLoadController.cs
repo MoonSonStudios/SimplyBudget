@@ -162,8 +162,8 @@ public class SaveLoadController : MonoBehaviour
 
                 catagory.catagoryNameInput.text = catagoryData.catagoryName;
 
-                catagory.catagoryPlannedExpense.text = catagoryData.expectedExpense.ToString();
-                catagory.plannedExpense = catagoryData.expectedExpense;
+                catagory.catagoryPlannedExpense.text = catagoryData.plannedExpense.ToString();
+                catagory.plannedExpense = catagoryData.plannedExpense;
 
                 catagory.catagoryActualExpense.text = catagoryData.actualExpenses.ToString();
                 catagory.actualExpense = catagoryData.actualExpenses;

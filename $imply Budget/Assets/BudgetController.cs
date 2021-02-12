@@ -7,7 +7,6 @@ using TMPro;
 public class BudgetController : MonoBehaviour
 {
     //calender variables
-
     [Header("Calender Variables")]
     public TMP_Text calenderBannerText;
     public Canvas calenderObject;
@@ -51,7 +50,7 @@ public class BudgetController : MonoBehaviour
     public TMP_Text actualExpenseCalculationText; //actual expenses text calculated by the sum of sum of all actual expences in catagories
 
     public Color highCalculationColor; //color that displays numbers that are higher or lower than wanted
-    public Color lowCalculationColor; //color that displays numbers that are wanted ro better than expected
+    public Color lowCalculationColor; //color that displays numbers that are wanted ro better than planned
     public Color noSavingsColor; //color that displays when savings are negative
     public Color defaultColor; //default color
     public Color defaultTextColor; //default color
@@ -99,11 +98,11 @@ public class BudgetController : MonoBehaviour
 
         if(actualSum > plannedSum)
         {
-            actualExpenseCalculationText.color = highCalculationColor; //when actual expenses is higher than expected, color calculated amount orange
+            actualExpenseCalculationText.color = highCalculationColor; //when actual expenses is higher than planned, color calculated amount orange
         }
         else
         {
-            actualExpenseCalculationText.color = lowCalculationColor; //when actual expenses is equal or lower than expected, color calculated amount green
+            actualExpenseCalculationText.color = lowCalculationColor; //when actual expenses is equal or lower than planned, color calculated amount green
         }
 
         if(savings >= 0)
